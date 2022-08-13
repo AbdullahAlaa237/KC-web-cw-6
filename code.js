@@ -1,7 +1,7 @@
 alert(`مرحباً بك في موقعي الذي سيحسب درجتك!!`)
 
 let grade = prompt(`أكتب درجتك بالارقام`)
-console.log(grade)
+console.log('\x1b[31m%s\x1b[0m',   grade )
 
 if (  grade>=90 && grade<=100 ) {
 
@@ -29,3 +29,4 @@ console.log("لقد حصلت على جيد")
         console.log("راسب")
     }
 
+/*جافاسكربت ليست جافا*/
